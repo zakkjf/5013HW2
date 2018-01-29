@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1517210547 source:/home/razor2/dev/5013HW2/Problem3/5013HW2P3/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdlib.h>
+	<time.h>
+
+1517265568 source:/home/razor2/dev/5013HW2/Problem4/5013HW2P4/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdlib.h>
+	<time.h>
+
