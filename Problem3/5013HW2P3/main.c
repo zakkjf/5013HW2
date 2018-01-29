@@ -20,7 +20,9 @@ int main()
         *(ptr1+i) = (rand()%1000);
     }
 
+    clock_t start = clock(), diff;
     syscall(333, ptr1, ptr2, SIZE);
+    diff = clock() - start;
 
     printf("Presort\tPostsort\n");
 
@@ -29,6 +31,8 @@ int main()
         printf("%d\t%d\n",*(ptr1+i),*(ptr2+i));
     }
 
+    int msec = diff * 1000000 / CLOCKS_PER_SEC;
+    printf("Time taken %d seconds %d milliseconds", msec/1000000, msec%1000000);
 
     return 0;
 }
