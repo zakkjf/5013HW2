@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1517451517 source:/home/razor2/dev/5013HW2/Problem6/proj/p6/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stddef.h>
+	"main.h"
+
+1517451154 /home/razor2/dev/5013HW2/Problem6/proj/p6/main.h
+
