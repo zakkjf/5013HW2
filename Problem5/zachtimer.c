@@ -1,3 +1,30 @@
+/*****************************************************************************
+ * Copyright (C) 2018 by Zach Farmer
+ *
+ * Redistribution, modification or use of this software in source or binary
+ * forms is permitted as long as the files maintain this copyright. Users are
+ * permitted to modify this and use it to learn about the field of embedded
+ * software. Alex Fosdick and the University of Colorado are not liable for
+ * any misuse of this material.
+ *
+*****************************************************************************/
+/**
+ * @file zachtimer.c
+ * @brief An example kernel module triggering a periodic timer
+ *
+ * This is a short sample program to demonstrate a kernel module.
+ * it can take the name and interval of the timer as command-line arguments.
+ *
+ * @modparam name the name of the executor. Zach Farmer by default.
+ * @modparam interval_ms the interval of the periodic timer. 500ms by default.
+ *
+ * @author Zach Farmer
+ * @date February 3 2018
+ * @version 1.0
+ *
+ *
+ */
+
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/timer.h>
