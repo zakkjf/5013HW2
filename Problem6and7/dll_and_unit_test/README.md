@@ -52,7 +52,7 @@ Included source files are:
 
 * dll.{h|c} - library containing doubly-linked list functionality
 
-* test_quadratic.c - unit tests for the doubly-linked list library
+* test_dll.c - unit tests for the doubly-linked list library
 
 * main.c - simple demo driver using dll library.
 
