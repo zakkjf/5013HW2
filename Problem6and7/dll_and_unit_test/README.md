@@ -50,9 +50,9 @@ cmocka is included in this repository as a git subtree. See
 
 Included source files are:
 
-* quadratic.{h|c} - simple demo library solving quadratic equations.
+* dll.{h|c} - library containing doubly-linked list functionality
 
-* test_quadratic.c - unit tests for quadratic solver.
+* test_quadratic.c - unit tests for the doubly-linked list library
 
-* main.c - simple demo driver using library.
+* main.c - simple demo driver using dll library.
 
